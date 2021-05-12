@@ -2,7 +2,7 @@
 
 const uuid = require('uuid').v4;
 const dynamoose = require('dynamoose');
-const ContactModel = require('./contacts.schema.js');
+const PeopleModel = require('./people.schema.js');
 
 exports.handler = async (event) => {
   try {
@@ -13,7 +13,7 @@ exports.handler = async (event) => {
     const id = uuid();
 
     // make the record, based on our dynamoose schema
-    const record = new ContactModel({ id, name, phone });
+    const record = new PeopleModel({ id, name, phone });
     // save the record to the DB (DynamoDB)
     const data = await record.save();
 
