@@ -12,7 +12,7 @@ exports.handler = async (event) => {
     let data;
 
     if (id) {
-      // ContactModel is our DB table
+      // PeopleModel is our DB table
       // .scan traverses the DB table and gets all records
       // .exec allows this to be handed back off to us
       // the below is the same as Mongoose -> .find({})
