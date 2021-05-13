@@ -2,6 +2,8 @@
 
 Author: Jessi Velazquez
 
+Pull Request: [https://github.com/JessiVelazquez/serverless-api/pull/2](https://github.com/JessiVelazquez/serverless-api/pull/2)
+
 # UML
 
 (All Amazon Web Services (AWS) platforms are in red)
